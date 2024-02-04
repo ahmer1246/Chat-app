@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chat App</title>
+    <link rel="stylesheet" href="signup.css">
+    <script src="https://kit.fontawesome.com/593dce717e.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div class="main">
+
+        <div class="form">
+            <h1>Chat App</h1>
+            <h2>Sign up to your account</h2>
+            <form action="">
+            <div class="email">
+                <label for="email">Email</label>
+                <div>
+                    <input type="text" name="email" id="email" autocomplete="email"> 
+                </div>
+                <div class="emailerror"><span class="error">Please enter a valid email</span></div>
+            </div>
+            <div class="email">
+                <label for="password">Passwword</label>
+                <div class="pass"><input type="password" name="password" id="password"><i id="showPass" class="fa-solid fa-eye"></i></div>
+                 <div class="passerror"><span class="error">Password must be atleast 6 character</span></div>
+            </div>
+            <div class="submit">
+                <button id="signup" type="submit">Sign up</button>
+            </div>
+            <p class="or">Or</p>
+            <div class="signupWithgoogle">
+                <button id="signupWithgoogle">Sign up with google</button>
+            </div>
+        </form>
+        <div class="gotologin">
+            <p>Already Register <a href="./login.html">Sign in here</a></p>
+        </div>
+        </div>
+    </div>
+    <script src="./signup.js" type="module"></script>
+</body>
+</html>
