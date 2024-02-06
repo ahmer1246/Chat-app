@@ -31,7 +31,7 @@
         <div class="flex-1">
           <a href="./" class="btn btn-ghost text-xl">Chat App</a>
         </div>
-        <div>
+        <div class="emailBox">
           
           <p id="emailText"></p>
         </div>
@@ -45,7 +45,8 @@
             <div class="w-10 rounded-full">
               <img
                 alt="Tailwind CSS Navbar component"
-                src="https://daisyui.com/images/stock/photo-1534528741775-53994a69daeb.jpg"
+                src=""
+                id="profilepic"
               />
             </div>
           </div>
@@ -96,7 +97,7 @@
 
 
 
-<div id="imagePreview" class="flex hidden justify-center items-center">
+<div id="imagePreview" class="flex hidden justify-center items-center ">
   <div class="flex justify-center items-center" id="imageController">
     <img
       id="preview"
@@ -152,16 +153,16 @@
 />
 <!-- <button id="fileUploadBtn" class="btn btn-primary">Submit</button> -->
 
-<div class="w-full fixed bottom-0 flex items-center justify-center mb-10">
-  <div style="width: 80%" class="">
+<div class="w-full fixed bottom-0 flex items-center justify-center mb-10 bg-green-500 " id="messageBox">
+  <div style="width: 80%" class="inputMessage">
     <input
       id="messageInput"
       type="text"
       placeholder="Type here"
-      class="input input-bordered input-accent w-full"
+      class="input   w-full"
     />
   </div>
-  <div style="width: 20%">
+  <div style="width: 20% flex justify-center items-center">
     <div class="w-full flex">
       <div class="pl-8">
         <label for="fileUpload" class="file-input-label cursor-pointer">
